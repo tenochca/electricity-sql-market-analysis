@@ -33,4 +33,4 @@ SELECT substr(timestep, 1, 7), 'South',
        (MAX(UES_South) - MIN(UES_South)) / AVG(UES_South)
 FROM ues_dayahead_price
 GROUP BY substr(timestep, 1, 7)
-ORDER BY month, region;
+ORDER BY volatility_index DESC;
