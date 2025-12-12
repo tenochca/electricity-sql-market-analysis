@@ -13,7 +13,7 @@ Analyze Russian wholesale electricity market data (day‑ahead and intraday pric
 - **PZ Day-ahead Price & Volume**: Hourly prices and consumption for European and Siberian zones.
 - **Time Index Tables**: Normalized timestamps for UES tables.
 
-## 📊 Key Insights
+## 📊 Key Insights <br><br> ![Monthly Volalitility Charts](visualizations/monthy_volatility.png)
 
 Key to understanding the data is the difference between the intraday market and the day-ahead market. The day-ahead market allows buyers and sellers to make transactions for delivery the following day. The intraday market allows for last-minute trades and adjustments, providing flexibility. Keeping this in mind, we can try to explore the following questions:
 - Which regions are most volatile vs most stable?
