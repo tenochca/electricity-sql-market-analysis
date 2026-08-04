@@ -1,5 +1,5 @@
 --creating time_index_ues TABLE
-CREATE TABLE time_index_uses (
+CREATE TABLE time_index_ues (
 id INTEGER PRIMARY KEY,
 	timestep TEXT UNIQUE NOT NULL
 	);
